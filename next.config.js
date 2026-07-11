@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  serverExternalPackages: ["@libsql/client"],
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "i.ibb.co" },
